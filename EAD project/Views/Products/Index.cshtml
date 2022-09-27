@@ -1,0 +1,117 @@
+﻿@model IEnumerable<EAD_project.Product>
+
+@{
+    ViewData["Title"] = "Index";
+}
+<html>
+    <body>
+        <script>console.log("pakistan");</script>
+<label >Choose type search</label>
+<select id="SearchBy" class="form-control">
+    <option value="title">Title </option>
+    <option value="Price">Price</option>
+</select>
+<br />
+<label>Enter key</label>
+<div style="display:flex;">
+    <input class="form-control" id="Search"/>
+    <input class="btn btn-primary" type="submit" id="SearchBtn" value="Search"/>
+</div>
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Title)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.OldPrice)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NewPrice)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Image)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Description)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody id="DataSearching">
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Title)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.OldPrice)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NewPrice)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Image)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Description)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+</body>
+</html>
+
+//<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script>
+    $(document).ready(function(){
+        $("#SearchBtn").click(function(){
+            console.log("pak");
+            var SearchBy=$("#SearchBy").val();
+            var SearchValue=$("#Search").val();
+            var setdata=$("#DataSearching").val();
+            $("#DataSearching").html("");
+            //setdata.html("<br>");
+            console.log("ind");
+
+            $.ajax({
+                type: "post",
+                url: "Products/GetSearchData?SearchBy="+SearchBy+"&SearchValue="+SearchValue,
+                contentType: "html",
+                success: function(result){
+                    if(result.length == 0)
+                    {
+                       $("#DataSearching").append("<tr><td> No result found</td></tr>");
+                    }
+                    else{
+                        result=JSON.parse(result);
+                        console.log(result);      
+                        $.each(result, function(index,value){
+                            var data="<tr>"
+                            +"<td>"+ value.Title+  "</td>"+
+                            +"<td>"+ value.OldPrice+  "</td>"
+                            +"<td>"+ value.NewPrice+  "</td>"
+                            +"<td>"+ value.Image+  "</td>"
+                            +"<td>"+ value.Description+  "</td>"
+                            +"</tr>";
+                            //setdata.html(data);
+                            $("#DataSearching").append(data);           
+                        });
+                    }
+
+                }
+            })
+        })
+    })
+</script>

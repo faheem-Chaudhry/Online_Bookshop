@@ -1,0 +1,44 @@
+﻿<html>
+    <head>
+        <link rel="stylesheet" href="~/css/Index.css" >
+        <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" >
+    </head>
+    <body>
+        <div>
+        <div class="header-blue">
+            <nav class="navbar navbar-light navbar-expand-md navigation-clean-search">
+                <div class="container-fluid"><a class="navbar-brand" href="#">One and Only Platform to sell and Purchase Books</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+                    <div class="collapse navbar-collapse"
+                        id="navcol-1">
+                        
+                        <form class="form-inline mr-auto" target="_self">
+                            <div class="form-group"><label for="search-field"><i class="fa fa-search text-white"></i></label><input class="form-control search-field" type="search" id="search-field" name="search"></div>
+                        </form><span class="navbar-text"> <a class="login" href="#">Log In</a></span><a class="btn btn-light action-button" role="button" href="#">Signup</a></div>
+                </div>
+            </nav>
+            <div class="container hero">
+                <div class="row">
+                    <div class="col-12 col-lg-6 col-xl-5 offset-xl-1">
+                        <h1>Welcome to Online BookShop</h1>
+                        <p>Here you will will be able to sell or purchase books.<br></p>
+                        
+                            @Html.ActionLink("Create Acount","Signup","signups",null,new {@class ="btn btn-light btn-lg action-button" })
+                            @Html.ActionLink("Login","Login","login",null,new {@class ="btn btn-light btn-lg action-button" })
+                        
+
+                    </div>
+                    <div class="col-md-5 col-lg-5 offset-lg-1 offset-xl-0 d-none d-lg-block phone-holder">
+                        <div class="iphone-mockup">
+						<img class="device" src="https://i.imgur.com/bkCeTu7.png">
+                          <!--  <div class="screen">
+							</div>
+							
+							-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </body>
+</html>

@@ -1,0 +1,25 @@
+﻿
+@{
+    Layout = "~/Views/Shared/_Layout1.cshtml";
+}
+
+<table border="1">
+    <thead>
+    <tr>
+        <th>Username</th>
+        <th>Email</th>
+        <th>Password</th>
+    </tr>
+    </thead>
+    <tbody>
+        @foreach(var data in Model)
+        {
+            <tr>
+                <td>@data.userName</td>
+                <td>@data.email</td>
+                <td>@data.password</td>
+            </tr>
+        }
+    </tbody>
+
+</table>
