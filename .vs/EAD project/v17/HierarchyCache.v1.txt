@@ -3,39 +3,79 @@ i:{00000000-0000-0000-0000-000000000000}:EAD project.sln
 ++EAD project
 i:{00000000-0000-0000-0000-000000000000}:EAD project
 ++Connected Services 
-i:{7921c411-746f-4a82-9251-a09d15c2f04e}:>507
+i:{7921c411-746f-4a82-9251-a09d15c2f04e}:>1391
 ++Dependencies
-i:{7921c411-746f-4a82-9251-a09d15c2f04e}:>506
+i:{7921c411-746f-4a82-9251-a09d15c2f04e}:>1390
+++Analyzers
+i:{7921c411-746f-4a82-9251-a09d15c2f04e}:analyzers
+++Frameworks
+i:{7921c411-746f-4a82-9251-a09d15c2f04e}:frameworks
+++Packages
+i:{7921c411-746f-4a82-9251-a09d15c2f04e}:packages
+++AutoMapper.Extensions.Microsoft.DependencyInjection (11.0.0)
+i:{7921c411-746f-4a82-9251-a09d15c2f04e}:>1416
+++Microsoft.AspNetCore.Identity.EntityFrameworkCore (6.0.8)
+i:{7921c411-746f-4a82-9251-a09d15c2f04e}:>1421
+++Microsoft.Data.SqlClient (5.0.0)
+i:{7921c411-746f-4a82-9251-a09d15c2f04e}:>1414
+++Microsoft.EntityFrameworkCore (6.0.8)
+i:{7921c411-746f-4a82-9251-a09d15c2f04e}:>1413
+++Microsoft.EntityFrameworkCore.SqlServer (6.0.8)
+i:{7921c411-746f-4a82-9251-a09d15c2f04e}:>1415
+++Microsoft.EntityFrameworkCore.Tools (6.0.8)
+i:{7921c411-746f-4a82-9251-a09d15c2f04e}:>1419
+++Microsoft.VisualStudio.Web.CodeGeneration.Design (6.0.8)
+i:{7921c411-746f-4a82-9251-a09d15c2f04e}:>1420
+++Microsoft.VisualStudio.Web.CodeGeneration.Utils (6.0.8)
+i:{7921c411-746f-4a82-9251-a09d15c2f04e}:>1418
+++Swashbuckle.AspNetCore (6.3.0)
+i:{7921c411-746f-4a82-9251-a09d15c2f04e}:>1417
 ++Properties
 i:{7921c411-746f-4a82-9251-a09d15c2f04e}:c:\users\ch faheem\source\repos\ead project\ead project\properties\
 ++wwwroot
 i:{7921c411-746f-4a82-9251-a09d15c2f04e}:c:\users\ch faheem\source\repos\ead project\ead project\wwwroot\
-++css
-i:{7921c411-746f-4a82-9251-a09d15c2f04e}:c:\users\ch faheem\source\repos\ead project\ead project\wwwroot\css\
-i:{7921c411-746f-4a82-9251-a09d15c2f04e}:c:\users\ch faheem\source\repos\ead project\ead project\wwwroot\lib\bootstrap\dist\css\
-++images
-i:{7921c411-746f-4a82-9251-a09d15c2f04e}:c:\users\ch faheem\source\repos\ead project\ead project\wwwroot\images\
-++js
-i:{7921c411-746f-4a82-9251-a09d15c2f04e}:c:\users\ch faheem\source\repos\ead project\ead project\wwwroot\js\
-i:{7921c411-746f-4a82-9251-a09d15c2f04e}:c:\users\ch faheem\source\repos\ead project\ead project\wwwroot\lib\bootstrap\dist\js\
-++lib
-i:{7921c411-746f-4a82-9251-a09d15c2f04e}:c:\users\ch faheem\source\repos\ead project\ead project\wwwroot\lib\
-++favicon.ico
-i:{7921c411-746f-4a82-9251-a09d15c2f04e}:c:\users\ch faheem\source\repos\ead project\ead project\wwwroot\favicon.ico
+++Component
+i:{7921c411-746f-4a82-9251-a09d15c2f04e}:c:\users\ch faheem\source\repos\ead project\ead project\component\
+++ProductViewComponent.cs
+i:{7921c411-746f-4a82-9251-a09d15c2f04e}:c:\users\ch faheem\source\repos\ead project\ead project\component\productviewcomponent.cs
 ++Controllers
 i:{7921c411-746f-4a82-9251-a09d15c2f04e}:c:\users\ch faheem\source\repos\ead project\ead project\controllers\
 ++HomeController.cs
 i:{7921c411-746f-4a82-9251-a09d15c2f04e}:c:\users\ch faheem\source\repos\ead project\ead project\controllers\homecontroller.cs
-++SignupController.cs
-i:{7921c411-746f-4a82-9251-a09d15c2f04e}:c:\users\ch faheem\source\repos\ead project\ead project\controllers\signupcontroller.cs
+++LoginController.cs
+i:{7921c411-746f-4a82-9251-a09d15c2f04e}:c:\users\ch faheem\source\repos\ead project\ead project\controllers\logincontroller.cs
+++ProductsController.cs
+i:{7921c411-746f-4a82-9251-a09d15c2f04e}:c:\users\ch faheem\source\repos\ead project\ead project\controllers\productscontroller.cs
+++SignUpsController.cs
+i:{7921c411-746f-4a82-9251-a09d15c2f04e}:c:\users\ch faheem\source\repos\ead project\ead project\controllers\signupscontroller.cs
 ++Migrations
 i:{7921c411-746f-4a82-9251-a09d15c2f04e}:c:\users\ch faheem\source\repos\ead project\ead project\migrations\
+++20220827123142_initialcreate.cs
+i:{7921c411-746f-4a82-9251-a09d15c2f04e}:c:\users\ch faheem\source\repos\ead project\ead project\migrations\20220827123142_initialcreate.cs
+++20220827124058_baseclass_signup.cs
+i:{7921c411-746f-4a82-9251-a09d15c2f04e}:c:\users\ch faheem\source\repos\ead project\ead project\migrations\20220827124058_baseclass_signup.cs
+++20220905164950_productDescriptionAdded.cs
+i:{7921c411-746f-4a82-9251-a09d15c2f04e}:c:\users\ch faheem\source\repos\ead project\ead project\migrations\20220905164950_productdescriptionadded.cs
+++online_BookshopContextModelSnapshot.cs
+i:{7921c411-746f-4a82-9251-a09d15c2f04e}:c:\users\ch faheem\source\repos\ead project\ead project\migrations\online_bookshopcontextmodelsnapshot.cs
 ++Models
 i:{7921c411-746f-4a82-9251-a09d15c2f04e}:c:\users\ch faheem\source\repos\ead project\ead project\models\
 ++Interface
 i:{7921c411-746f-4a82-9251-a09d15c2f04e}:c:\users\ch faheem\source\repos\ead project\ead project\models\interface\
+++ILogin.cs
+i:{7921c411-746f-4a82-9251-a09d15c2f04e}:c:\users\ch faheem\source\repos\ead project\ead project\models\interface\ilogin.cs
+++IProduct.cs
+i:{7921c411-746f-4a82-9251-a09d15c2f04e}:c:\users\ch faheem\source\repos\ead project\ead project\models\interface\iproduct.cs
+++ISignUp.cs
+i:{7921c411-746f-4a82-9251-a09d15c2f04e}:c:\users\ch faheem\source\repos\ead project\ead project\models\interface\isignup.cs
 ++Repository
 i:{7921c411-746f-4a82-9251-a09d15c2f04e}:c:\users\ch faheem\source\repos\ead project\ead project\models\repository\
+++LoginRepository.cs
+i:{7921c411-746f-4a82-9251-a09d15c2f04e}:c:\users\ch faheem\source\repos\ead project\ead project\models\repository\loginrepository.cs
+++ProductRepository.cs
+i:{7921c411-746f-4a82-9251-a09d15c2f04e}:c:\users\ch faheem\source\repos\ead project\ead project\models\repository\productrepository.cs
+++signupRepository.cs
+i:{7921c411-746f-4a82-9251-a09d15c2f04e}:c:\users\ch faheem\source\repos\ead project\ead project\models\repository\signuprepository.cs
 ++Baseclass_signup.cs
 i:{7921c411-746f-4a82-9251-a09d15c2f04e}:c:\users\ch faheem\source\repos\ead project\ead project\models\baseclass_signup.cs
 ++ErrorViewModel.cs
@@ -48,32 +88,51 @@ i:{7921c411-746f-4a82-9251-a09d15c2f04e}:c:\users\ch faheem\source\repos\ead pro
 i:{7921c411-746f-4a82-9251-a09d15c2f04e}:c:\users\ch faheem\source\repos\ead project\ead project\models\signup.cs
 ++ViewModel.cs
 i:{7921c411-746f-4a82-9251-a09d15c2f04e}:c:\users\ch faheem\source\repos\ead project\ead project\models\viewmodel.cs
-++VieComponent
-i:{7921c411-746f-4a82-9251-a09d15c2f04e}:c:\users\ch faheem\source\repos\ead project\ead project\viecomponent\
-++Product_ViewComponent.cs
-i:{7921c411-746f-4a82-9251-a09d15c2f04e}:c:\users\ch faheem\source\repos\ead project\ead project\viecomponent\product_viewcomponent.cs
+++Pages
+i:{7921c411-746f-4a82-9251-a09d15c2f04e}:c:\users\ch faheem\source\repos\ead project\ead project\pages\
+++Products
+i:{7921c411-746f-4a82-9251-a09d15c2f04e}:c:\users\ch faheem\source\repos\ead project\ead project\products\
+i:{7921c411-746f-4a82-9251-a09d15c2f04e}:c:\users\ch faheem\source\repos\ead project\ead project\views\products\
 ++Views
 i:{7921c411-746f-4a82-9251-a09d15c2f04e}:c:\users\ch faheem\source\repos\ead project\ead project\views\
 ++Home
 i:{7921c411-746f-4a82-9251-a09d15c2f04e}:c:\users\ch faheem\source\repos\ead project\ead project\views\home\
 ++About.cshtml
 i:{7921c411-746f-4a82-9251-a09d15c2f04e}:c:\users\ch faheem\source\repos\ead project\ead project\views\home\about.cshtml
+++Delete.cshtml
+i:{7921c411-746f-4a82-9251-a09d15c2f04e}:c:\users\ch faheem\source\repos\ead project\ead project\views\home\delete.cshtml
+i:{7921c411-746f-4a82-9251-a09d15c2f04e}:c:\users\ch faheem\source\repos\ead project\ead project\views\products\delete.cshtml
+i:{7921c411-746f-4a82-9251-a09d15c2f04e}:c:\users\ch faheem\source\repos\ead project\ead project\views\signups\delete.cshtml
 ++Home.cshtml
 i:{7921c411-746f-4a82-9251-a09d15c2f04e}:c:\users\ch faheem\source\repos\ead project\ead project\views\home\home.cshtml
 ++Index.cshtml
 i:{7921c411-746f-4a82-9251-a09d15c2f04e}:c:\users\ch faheem\source\repos\ead project\ead project\views\home\index.cshtml
-++login.cshtml
-i:{7921c411-746f-4a82-9251-a09d15c2f04e}:c:\users\ch faheem\source\repos\ead project\ead project\views\login\login.cshtml
+i:{7921c411-746f-4a82-9251-a09d15c2f04e}:c:\users\ch faheem\source\repos\ead project\ead project\views\products\index.cshtml
+i:{7921c411-746f-4a82-9251-a09d15c2f04e}:c:\users\ch faheem\source\repos\ead project\ead project\views\signups\index.cshtml
 ++notWelcome.cshtml
 i:{7921c411-746f-4a82-9251-a09d15c2f04e}:c:\users\ch faheem\source\repos\ead project\ead project\views\home\notwelcome.cshtml
 ++Product.cshtml
 i:{7921c411-746f-4a82-9251-a09d15c2f04e}:c:\users\ch faheem\source\repos\ead project\ead project\views\home\product.cshtml
+i:{7921c411-746f-4a82-9251-a09d15c2f04e}:c:\users\ch faheem\source\repos\ead project\ead project\views\products\product.cshtml
 ++productDetail.cshtml
 i:{7921c411-746f-4a82-9251-a09d15c2f04e}:c:\users\ch faheem\source\repos\ead project\ead project\views\home\productdetail.cshtml
 ++Welcome.cshtml
 i:{7921c411-746f-4a82-9251-a09d15c2f04e}:c:\users\ch faheem\source\repos\ead project\ead project\views\home\welcome.cshtml
+++Login
+i:{7921c411-746f-4a82-9251-a09d15c2f04e}:c:\users\ch faheem\source\repos\ead project\ead project\views\login\
+++Create.cshtml
+i:{7921c411-746f-4a82-9251-a09d15c2f04e}:c:\users\ch faheem\source\repos\ead project\ead project\views\products\create.cshtml
+i:{7921c411-746f-4a82-9251-a09d15c2f04e}:c:\users\ch faheem\source\repos\ead project\ead project\views\signups\create.cshtml
+++Details.cshtml
+i:{7921c411-746f-4a82-9251-a09d15c2f04e}:c:\users\ch faheem\source\repos\ead project\ead project\views\products\details.cshtml
+i:{7921c411-746f-4a82-9251-a09d15c2f04e}:c:\users\ch faheem\source\repos\ead project\ead project\views\signups\details.cshtml
+++Edit.cshtml
+i:{7921c411-746f-4a82-9251-a09d15c2f04e}:c:\users\ch faheem\source\repos\ead project\ead project\views\products\edit.cshtml
+i:{7921c411-746f-4a82-9251-a09d15c2f04e}:c:\users\ch faheem\source\repos\ead project\ead project\views\signups\edit.cshtml
 ++Shared
 i:{7921c411-746f-4a82-9251-a09d15c2f04e}:c:\users\ch faheem\source\repos\ead project\ead project\views\shared\
+++Components
+i:{7921c411-746f-4a82-9251-a09d15c2f04e}:c:\users\ch faheem\source\repos\ead project\ead project\views\shared\components\
 ++_HeaderPartial.cshtml
 i:{7921c411-746f-4a82-9251-a09d15c2f04e}:c:\users\ch faheem\source\repos\ead project\ead project\views\shared\_headerpartial.cshtml
 ++_Layout.cshtml
@@ -84,6 +143,7 @@ i:{7921c411-746f-4a82-9251-a09d15c2f04e}:c:\users\ch faheem\source\repos\ead pro
 i:{7921c411-746f-4a82-9251-a09d15c2f04e}:c:\users\ch faheem\source\repos\ead project\ead project\views\shared\_partial_layout.cshtml
 ++_ValidationScriptsPartial.cshtml
 i:{7921c411-746f-4a82-9251-a09d15c2f04e}:c:\users\ch faheem\source\repos\ead project\ead project\views\shared\_validationscriptspartial.cshtml
+i:{7921c411-746f-4a82-9251-a09d15c2f04e}:c:\users\ch faheem\source\repos\ead project\ead project\pages\_validationscriptspartial.cshtml
 ++Error.cshtml
 i:{7921c411-746f-4a82-9251-a09d15c2f04e}:c:\users\ch faheem\source\repos\ead project\ead project\views\shared\error.cshtml
 ++footerLayout.cshtml
@@ -92,8 +152,8 @@ i:{7921c411-746f-4a82-9251-a09d15c2f04e}:c:\users\ch faheem\source\repos\ead pro
 i:{7921c411-746f-4a82-9251-a09d15c2f04e}:c:\users\ch faheem\source\repos\ead project\ead project\views\shared\headerlayout.cshtml
 ++Signup
 i:{7921c411-746f-4a82-9251-a09d15c2f04e}:c:\users\ch faheem\source\repos\ead project\ead project\views\signup\
-++signUp.cshtml
-i:{7921c411-746f-4a82-9251-a09d15c2f04e}:c:\users\ch faheem\source\repos\ead project\ead project\views\signup\signup.cshtml
+++SignUps
+i:{7921c411-746f-4a82-9251-a09d15c2f04e}:c:\users\ch faheem\source\repos\ead project\ead project\views\signups\
 ++_ViewImports.cshtml
 i:{7921c411-746f-4a82-9251-a09d15c2f04e}:c:\users\ch faheem\source\repos\ead project\ead project\views\_viewimports.cshtml
 ++_ViewStart.cshtml
@@ -107,35 +167,89 @@ i:{7921c411-746f-4a82-9251-a09d15c2f04e}:c:\users\ch faheem\source\repos\ead pro
 ++Startup.cs
 i:{7921c411-746f-4a82-9251-a09d15c2f04e}:c:\users\ch faheem\source\repos\ead project\ead project\startup.cs
 ++No service dependencies discovered
-i:{7921c411-746f-4a82-9251-a09d15c2f04e}:>508
-++Analyzers
-i:{7921c411-746f-4a82-9251-a09d15c2f04e}:analyzers
-++Frameworks
-i:{7921c411-746f-4a82-9251-a09d15c2f04e}:frameworks
-++Packages
-i:{7921c411-746f-4a82-9251-a09d15c2f04e}:packages
+i:{7921c411-746f-4a82-9251-a09d15c2f04e}:>1392
+++MessagePackAnalyzer
+i:{7921c411-746f-4a82-9251-a09d15c2f04e}:c:\users\ch faheem\.nuget\packages\messagepackanalyzer\2.1.152\analyzers\dotnet\messagepackanalyzer.dll
+++Microsoft.AspNetCore.Analyzers
+i:{7921c411-746f-4a82-9251-a09d15c2f04e}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.analyzers.dll
+++Microsoft.AspNetCore.App.Analyzers
+i:{7921c411-746f-4a82-9251-a09d15c2f04e}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.2\analyzers\dotnet\cs\microsoft.aspnetcore.app.analyzers.dll
+++Microsoft.AspNetCore.App.CodeFixes
+i:{7921c411-746f-4a82-9251-a09d15c2f04e}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.2\analyzers\dotnet\cs\microsoft.aspnetcore.app.codefixes.dll
+++Microsoft.AspNetCore.Components.Analyzers
+i:{7921c411-746f-4a82-9251-a09d15c2f04e}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.components.analyzers.dll
+++Microsoft.AspNetCore.Mvc.Analyzers
+i:{7921c411-746f-4a82-9251-a09d15c2f04e}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.mvc.analyzers.dll
+++Microsoft.AspNetCore.Razor.SourceGenerator.Tooling.Internal
+i:{7921c411-746f-4a82-9251-a09d15c2f04e}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk.razor\source-generators\microsoft.aspnetcore.razor.sourcegenerator.tooling.internal.dll
+++Microsoft.CodeAnalysis.Analyzers
+i:{7921c411-746f-4a82-9251-a09d15c2f04e}:c:\users\ch faheem\.nuget\packages\microsoft.codeanalysis.analyzers\3.3.2\analyzers\dotnet\cs\microsoft.codeanalysis.analyzers.dll
+++Microsoft.CodeAnalysis.CSharp.Analyzers
+i:{7921c411-746f-4a82-9251-a09d15c2f04e}:c:\users\ch faheem\.nuget\packages\microsoft.codeanalysis.analyzers\3.3.2\analyzers\dotnet\cs\microsoft.codeanalysis.csharp.analyzers.dll
+++Microsoft.CodeAnalysis.CSharp.NetAnalyzers
+i:{7921c411-746f-4a82-9251-a09d15c2f04e}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+++Microsoft.CodeAnalysis.NetAnalyzers
+i:{7921c411-746f-4a82-9251-a09d15c2f04e}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+++Microsoft.EntityFrameworkCore.Analyzers
+i:{7921c411-746f-4a82-9251-a09d15c2f04e}:c:\users\ch faheem\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.8\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+++Microsoft.Extensions.Logging.Generators
+i:{7921c411-746f-4a82-9251-a09d15c2f04e}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.2\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+++Microsoft.NET.Sdk.Razor.SourceGenerators
+i:{7921c411-746f-4a82-9251-a09d15c2f04e}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk.razor\source-generators\microsoft.net.sdk.razor.sourcegenerators.dll
+++System.Text.Json.SourceGeneration
+i:{7921c411-746f-4a82-9251-a09d15c2f04e}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.2\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+++Microsoft.AspNetCore.App
+i:{7921c411-746f-4a82-9251-a09d15c2f04e}:c:\users\ch faheem\source\repos\ead project\ead project\microsoft.aspnetcore.app
+++Microsoft.NETCore.App
+i:{7921c411-746f-4a82-9251-a09d15c2f04e}:c:\users\ch faheem\source\repos\ead project\ead project\microsoft.netcore.app
 ++launchSettings.json
 i:{7921c411-746f-4a82-9251-a09d15c2f04e}:c:\users\ch faheem\source\repos\ead project\ead project\properties\launchsettings.json
+++css
+i:{7921c411-746f-4a82-9251-a09d15c2f04e}:c:\users\ch faheem\source\repos\ead project\ead project\wwwroot\css\
+i:{7921c411-746f-4a82-9251-a09d15c2f04e}:c:\users\ch faheem\source\repos\ead project\ead project\wwwroot\lib\bootstrap\dist\css\
+++images
+i:{7921c411-746f-4a82-9251-a09d15c2f04e}:c:\users\ch faheem\source\repos\ead project\ead project\wwwroot\images\
+++js
+i:{7921c411-746f-4a82-9251-a09d15c2f04e}:c:\users\ch faheem\source\repos\ead project\ead project\wwwroot\js\
+i:{7921c411-746f-4a82-9251-a09d15c2f04e}:c:\users\ch faheem\source\repos\ead project\ead project\wwwroot\lib\bootstrap\dist\js\
+++lib
+i:{7921c411-746f-4a82-9251-a09d15c2f04e}:c:\users\ch faheem\source\repos\ead project\ead project\wwwroot\lib\
+++favicon.ico
+i:{7921c411-746f-4a82-9251-a09d15c2f04e}:c:\users\ch faheem\source\repos\ead project\ead project\wwwroot\favicon.ico
+++20220827123142_initialcreate.Designer.cs
+i:{7921c411-746f-4a82-9251-a09d15c2f04e}:c:\users\ch faheem\source\repos\ead project\ead project\migrations\20220827123142_initialcreate.designer.cs
+++20220827124058_baseclass_signup.Designer.cs
+i:{7921c411-746f-4a82-9251-a09d15c2f04e}:c:\users\ch faheem\source\repos\ead project\ead project\migrations\20220827124058_baseclass_signup.designer.cs
+++20220905164950_productDescriptionAdded.Designer.cs
+i:{7921c411-746f-4a82-9251-a09d15c2f04e}:c:\users\ch faheem\source\repos\ead project\ead project\migrations\20220905164950_productdescriptionadded.designer.cs
+++login.cshtml
+i:{7921c411-746f-4a82-9251-a09d15c2f04e}:c:\users\ch faheem\source\repos\ead project\ead project\views\login\login.cshtml
+++Product
+i:{7921c411-746f-4a82-9251-a09d15c2f04e}:c:\users\ch faheem\source\repos\ead project\ead project\views\shared\components\product\
+++signUp.cshtml
+i:{7921c411-746f-4a82-9251-a09d15c2f04e}:c:\users\ch faheem\source\repos\ead project\ead project\views\signups\signup.cshtml
+++appsettings.Development.json
+i:{7921c411-746f-4a82-9251-a09d15c2f04e}:c:\users\ch faheem\source\repos\ead project\ead project\appsettings.development.json
 ++About.css
 i:{7921c411-746f-4a82-9251-a09d15c2f04e}:c:\users\ch faheem\source\repos\ead project\ead project\wwwroot\css\about.css
 ++download 2.jpg
 i:{7921c411-746f-4a82-9251-a09d15c2f04e}:c:\users\ch faheem\source\repos\ead project\ead project\wwwroot\css\download 2.jpg
-i:{7921c411-746f-4a82-9251-a09d15c2f04e}:c:\users\ch faheem\source\repos\ead project\ead project\wwwroot\images\download 2.jpg
+i:{7921c411-746f-4a82-9251-a09d15c2f04e}:c:\users\ch faheem\source\repos\ead project\ead project\wwwroot\images\plots\download 2.jpg
 ++download.jpg
 i:{7921c411-746f-4a82-9251-a09d15c2f04e}:c:\users\ch faheem\source\repos\ead project\ead project\wwwroot\css\download.jpg
-i:{7921c411-746f-4a82-9251-a09d15c2f04e}:c:\users\ch faheem\source\repos\ead project\ead project\wwwroot\images\download.jpg
+i:{7921c411-746f-4a82-9251-a09d15c2f04e}:c:\users\ch faheem\source\repos\ead project\ead project\wwwroot\images\plots\download.jpg
 ++download3.png
 i:{7921c411-746f-4a82-9251-a09d15c2f04e}:c:\users\ch faheem\source\repos\ead project\ead project\wwwroot\css\download3.png
-i:{7921c411-746f-4a82-9251-a09d15c2f04e}:c:\users\ch faheem\source\repos\ead project\ead project\wwwroot\images\download3.png
+i:{7921c411-746f-4a82-9251-a09d15c2f04e}:c:\users\ch faheem\source\repos\ead project\ead project\wwwroot\images\plots\download3.png
 ++download4.jpg
 i:{7921c411-746f-4a82-9251-a09d15c2f04e}:c:\users\ch faheem\source\repos\ead project\ead project\wwwroot\css\download4.jpg
-i:{7921c411-746f-4a82-9251-a09d15c2f04e}:c:\users\ch faheem\source\repos\ead project\ead project\wwwroot\images\download4.jpg
+i:{7921c411-746f-4a82-9251-a09d15c2f04e}:c:\users\ch faheem\source\repos\ead project\ead project\wwwroot\images\plots\download4.jpg
 ++download5.jpg
 i:{7921c411-746f-4a82-9251-a09d15c2f04e}:c:\users\ch faheem\source\repos\ead project\ead project\wwwroot\css\download5.jpg
-i:{7921c411-746f-4a82-9251-a09d15c2f04e}:c:\users\ch faheem\source\repos\ead project\ead project\wwwroot\images\download5.jpg
+i:{7921c411-746f-4a82-9251-a09d15c2f04e}:c:\users\ch faheem\source\repos\ead project\ead project\wwwroot\images\plots\download5.jpg
 ++download6.jpg
 i:{7921c411-746f-4a82-9251-a09d15c2f04e}:c:\users\ch faheem\source\repos\ead project\ead project\wwwroot\css\download6.jpg
-i:{7921c411-746f-4a82-9251-a09d15c2f04e}:c:\users\ch faheem\source\repos\ead project\ead project\wwwroot\images\download6.jpg
+i:{7921c411-746f-4a82-9251-a09d15c2f04e}:c:\users\ch faheem\source\repos\ead project\ead project\wwwroot\images\plots\download6.jpg
 ++Footer.css
 i:{7921c411-746f-4a82-9251-a09d15c2f04e}:c:\users\ch faheem\source\repos\ead project\ead project\wwwroot\css\footer.css
 ++home.css
@@ -146,6 +260,8 @@ i:{7921c411-746f-4a82-9251-a09d15c2f04e}:c:\users\ch faheem\source\repos\ead pro
 i:{7921c411-746f-4a82-9251-a09d15c2f04e}:c:\users\ch faheem\source\repos\ead project\ead project\wwwroot\css\layout.css
 ++productDetail.css
 i:{7921c411-746f-4a82-9251-a09d15c2f04e}:c:\users\ch faheem\source\repos\ead project\ead project\wwwroot\css\productdetail.css
+++ShoeProduct.css
+i:{7921c411-746f-4a82-9251-a09d15c2f04e}:c:\users\ch faheem\source\repos\ead project\ead project\wwwroot\css\shoeproduct.css
 ++site.css
 i:{7921c411-746f-4a82-9251-a09d15c2f04e}:c:\users\ch faheem\source\repos\ead project\ead project\wwwroot\css\site.css
 ++plots
@@ -160,52 +276,20 @@ i:{7921c411-746f-4a82-9251-a09d15c2f04e}:c:\users\ch faheem\source\repos\ead pro
 i:{7921c411-746f-4a82-9251-a09d15c2f04e}:c:\users\ch faheem\source\repos\ead project\ead project\wwwroot\lib\jquery-validation\
 ++jquery-validation-unobtrusive
 i:{7921c411-746f-4a82-9251-a09d15c2f04e}:c:\users\ch faheem\source\repos\ead project\ead project\wwwroot\lib\jquery-validation-unobtrusive\
-++20220827123142_initialcreate.cs
-i:{7921c411-746f-4a82-9251-a09d15c2f04e}:c:\users\ch faheem\source\repos\ead project\ead project\migrations\20220827123142_initialcreate.cs
-++20220827124058_baseclass_signup.cs
-i:{7921c411-746f-4a82-9251-a09d15c2f04e}:c:\users\ch faheem\source\repos\ead project\ead project\migrations\20220827124058_baseclass_signup.cs
-++online_BookshopContextModelSnapshot.cs
-i:{7921c411-746f-4a82-9251-a09d15c2f04e}:c:\users\ch faheem\source\repos\ead project\ead project\migrations\online_bookshopcontextmodelsnapshot.cs
-++IProduct.cs
-i:{7921c411-746f-4a82-9251-a09d15c2f04e}:c:\users\ch faheem\source\repos\ead project\ead project\models\interface\iproduct.cs
-++ISignUp.cs
-i:{7921c411-746f-4a82-9251-a09d15c2f04e}:c:\users\ch faheem\source\repos\ead project\ead project\models\interface\isignup.cs
-++LoginRepository.cs
-i:{7921c411-746f-4a82-9251-a09d15c2f04e}:c:\users\ch faheem\source\repos\ead project\ead project\models\repository\loginrepository.cs
-++ProductRepository.cs
-i:{7921c411-746f-4a82-9251-a09d15c2f04e}:c:\users\ch faheem\source\repos\ead project\ead project\models\repository\productrepository.cs
-++signupRepository.cs
-i:{7921c411-746f-4a82-9251-a09d15c2f04e}:c:\users\ch faheem\source\repos\ead project\ead project\models\repository\signuprepository.cs
-++appsettings.Development.json
-i:{7921c411-746f-4a82-9251-a09d15c2f04e}:c:\users\ch faheem\source\repos\ead project\ead project\appsettings.development.json
-++Microsoft.AspNetCore.Analyzers
-i:{7921c411-746f-4a82-9251-a09d15c2f04e}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.analyzers.dll
-++Microsoft.AspNetCore.Components.Analyzers
-i:{7921c411-746f-4a82-9251-a09d15c2f04e}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.components.analyzers.dll
-++Microsoft.AspNetCore.Mvc.Analyzers
-i:{7921c411-746f-4a82-9251-a09d15c2f04e}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.mvc.analyzers.dll
-++Microsoft.CodeAnalysis.CSharp.NetAnalyzers
-i:{7921c411-746f-4a82-9251-a09d15c2f04e}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
-++Microsoft.CodeAnalysis.NetAnalyzers
-i:{7921c411-746f-4a82-9251-a09d15c2f04e}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
-++Microsoft.EntityFrameworkCore.Analyzers
-i:{7921c411-746f-4a82-9251-a09d15c2f04e}:c:\users\ch faheem\.nuget\packages\microsoft.entityframeworkcore.analyzers\5.0.0\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
-++Microsoft.AspNetCore.App
-i:{7921c411-746f-4a82-9251-a09d15c2f04e}:c:\users\ch faheem\source\repos\ead project\ead project\microsoft.aspnetcore.app
-++Microsoft.NETCore.App
-i:{7921c411-746f-4a82-9251-a09d15c2f04e}:c:\users\ch faheem\source\repos\ead project\ead project\microsoft.netcore.app
-++Microsoft.Data.SqlClient (4.1.0)
-i:{7921c411-746f-4a82-9251-a09d15c2f04e}:>521
-++Microsoft.EntityFrameworkCore (5.0.0)
-i:{7921c411-746f-4a82-9251-a09d15c2f04e}:>520
-++Microsoft.EntityFrameworkCore.SqlServer (5.0.0)
-i:{7921c411-746f-4a82-9251-a09d15c2f04e}:>522
-++Microsoft.EntityFrameworkCore.Tools (5.0.0)
-i:{7921c411-746f-4a82-9251-a09d15c2f04e}:>523
+++Default.cshtml
+i:{7921c411-746f-4a82-9251-a09d15c2f04e}:c:\users\ch faheem\source\repos\ead project\ead project\views\shared\components\product\default.cshtml
 ++3x3 Sharpening.jpg
 i:{7921c411-746f-4a82-9251-a09d15c2f04e}:c:\users\ch faheem\source\repos\ead project\ead project\wwwroot\images\plots\3x3 sharpening.jpg
+++calculas.jpg
+i:{7921c411-746f-4a82-9251-a09d15c2f04e}:c:\users\ch faheem\source\repos\ead project\ead project\wwwroot\images\plots\calculas.jpg
+++computer.jpg
+i:{7921c411-746f-4a82-9251-a09d15c2f04e}:c:\users\ch faheem\source\repos\ead project\ead project\wwwroot\images\plots\computer.jpg
+++maxresdefault (1).jpg
+i:{7921c411-746f-4a82-9251-a09d15c2f04e}:c:\users\ch faheem\source\repos\ead project\ead project\wwwroot\images\plots\maxresdefault (1).jpg
 ++maxresdefault (2).jpg
 i:{7921c411-746f-4a82-9251-a09d15c2f04e}:c:\users\ch faheem\source\repos\ead project\ead project\wwwroot\images\plots\maxresdefault (2).jpg
+++Taj-Mahal.jpg
+i:{7921c411-746f-4a82-9251-a09d15c2f04e}:c:\users\ch faheem\source\repos\ead project\ead project\wwwroot\images\plots\taj-mahal.jpg
 ++dist
 i:{7921c411-746f-4a82-9251-a09d15c2f04e}:c:\users\ch faheem\source\repos\ead project\ead project\wwwroot\lib\bootstrap\dist\
 i:{7921c411-746f-4a82-9251-a09d15c2f04e}:c:\users\ch faheem\source\repos\ead project\ead project\wwwroot\lib\jquery\dist\
@@ -219,10 +303,6 @@ i:{7921c411-746f-4a82-9251-a09d15c2f04e}:c:\users\ch faheem\source\repos\ead pro
 i:{7921c411-746f-4a82-9251-a09d15c2f04e}:c:\users\ch faheem\source\repos\ead project\ead project\wwwroot\lib\jquery-validation\license.md
 ++jquery.validate.unobtrusive.js
 i:{7921c411-746f-4a82-9251-a09d15c2f04e}:c:\users\ch faheem\source\repos\ead project\ead project\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js
-++20220827123142_initialcreate.Designer.cs
-i:{7921c411-746f-4a82-9251-a09d15c2f04e}:c:\users\ch faheem\source\repos\ead project\ead project\migrations\20220827123142_initialcreate.designer.cs
-++20220827124058_baseclass_signup.Designer.cs
-i:{7921c411-746f-4a82-9251-a09d15c2f04e}:c:\users\ch faheem\source\repos\ead project\ead project\migrations\20220827124058_baseclass_signup.designer.cs
 ++jquery.js
 i:{7921c411-746f-4a82-9251-a09d15c2f04e}:c:\users\ch faheem\source\repos\ead project\ead project\wwwroot\lib\jquery\dist\jquery.js
 ++additional-methods.js
@@ -279,8 +359,7 @@ i:{7921c411-746f-4a82-9251-a09d15c2f04e}:c:\users\ch faheem\source\repos\ead pro
 i:{7921c411-746f-4a82-9251-a09d15c2f04e}:c:\users\ch faheem\source\repos\ead project\ead project\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map
 ++bootstrap.bundle.min.js.map
 i:{7921c411-746f-4a82-9251-a09d15c2f04e}:c:\users\ch faheem\source\repos\ead project\ead project\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map
-++NewFolder
-++Login
-i:{7921c411-746f-4a82-9251-a09d15c2f04e}:c:\users\ch faheem\source\repos\ead project\ead project\views\login\
-++LoginController.cs
-i:{7921c411-746f-4a82-9251-a09d15c2f04e}:c:\users\ch faheem\source\repos\ead project\ead project\controllers\logincontroller.cs
+++20220927211851_identityadded.cs
+i:{7921c411-746f-4a82-9251-a09d15c2f04e}:c:\users\ch faheem\source\repos\ead project\ead project\migrations\20220927211851_identityadded.cs
+++20220927211851_identityadded.Designer.cs
+i:{7921c411-746f-4a82-9251-a09d15c2f04e}:c:\users\ch faheem\source\repos\ead project\ead project\migrations\20220927211851_identityadded.designer.cs

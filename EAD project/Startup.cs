@@ -11,6 +11,7 @@ using System.Threading.Tasks;
 using EAD_project.Models;
 using EAD_project.Models.Interface;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Identity;
 
 namespace EAD_project
 {
@@ -28,13 +29,17 @@ namespace EAD_project
         {
             services.AddControllersWithViews();
             //services.AddMvc();
-            //var connectionstring = Configuration.GetConnectionString("online_Bookshop");
-            //services.AddDbContext<online_BookshopContext>(option => option.UseSqlServer(connectionstring));
-            services.AddSingleton<ISignUp, signupRepository>();
+          //  var connectionstring = "Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=online_Bookshop;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False"; //Configuration.GetConnectionString("online_Bookshop");
+            services.AddDbContext<online_BookshopContext>(option => option.UseSqlServer("Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=online_Bookshop"));
+            services.AddScoped<ISignUp, signupRepository>();
             services.AddSingleton<IProduct, ProductRepository>();
             services.AddSingleton<ILogin, LoginRepository>();
 
             services.AddAutoMapper(typeof(Startup));
+
+            services.AddIdentity<IdentityUser, IdentityRole>()
+                .AddEntityFrameworkStores<online_BookshopContext>();
+
             services.AddControllersWithViews();
             //    services.AddDbContext(options => options.UseSqlServer(absonnectionString));
         }
@@ -58,6 +63,7 @@ namespace EAD_project
             app.UseRouting();
 
             app.UseAuthorization();
+            app.UseAuthentication();
 
             app.UseEndpoints(endpoints =>
             {

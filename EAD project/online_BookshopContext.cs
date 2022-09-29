@@ -1,4 +1,5 @@
 ﻿using System;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata;
 
@@ -6,7 +7,7 @@ using Microsoft.EntityFrameworkCore.Metadata;
 
 namespace EAD_project
 {
-    public partial class online_BookshopContext : DbContext
+    public partial class online_BookshopContext : IdentityDbContext
     {
         public online_BookshopContext()
         {
@@ -32,6 +33,7 @@ namespace EAD_project
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            base.OnModelCreating(modelBuilder);
             modelBuilder.Entity<Login>(entity =>
             {
                 entity.ToTable("login");
